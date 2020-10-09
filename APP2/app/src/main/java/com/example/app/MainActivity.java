@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent siguiente = new Intent(MainActivity.this, verAgenda.class);
+                Intent siguiente = new Intent(MainActivity.this, vista2.class);
 
                 siguiente.putExtra("Nombre", editTextNombre1.getText().toString());
                 siguiente.putExtra("Telefono", editTextTelefono2.getText().toString());
